@@ -2,7 +2,7 @@
 
 These are one of the themes that I like to make for wordpress simply as a hobby, feel free if you want to contribute or download any of the themes for your site.
 
-You can run wordpress using software like XAMPP, which is a local server solution that includes Apache, MySQL and PHP, allowing you to run WordPress on your own machine. Docker is another option, which allows you to build and run application containers in different development environments.
+You can run wordpress using software like XAMPP, which is a local server solution that includes Apache, MySQL and PHP, allowing you to run WordPress on your own machine. Docker is another option, which allows you to build and run application containers in different development environments
 
 
 ## Demonstration of applications on the front-end
@@ -42,6 +42,8 @@ docker build -t your-image-name .
 ```
 5. When the image is built, run the following command to create a container with the image:
 ```bash
+
+
 docker run -d -p 8080:80 your-image-name
 
 ```
